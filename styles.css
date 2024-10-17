@@ -1,0 +1,32 @@
+body {
+    background-color: beige;
+    font-family: Verdana, sans-serif;
+}
+
+article,
+footer {
+    background-color: bisque;
+}
+
+article {
+    padding: 0px 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+img {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(166, 76, 12);
+}
+
+a:hover {
+    text-decoration: underline;
+}
